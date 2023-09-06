@@ -7,7 +7,7 @@ form.addEventListener('submit', event => {
   let delay = Number(form.elements.delay.value);
   const step = Number(form.elements.step.value);
 
-  for (i = 0; i < amount; i += 1) {
+  for (let i = 0; i < amount; i += 1) {
     let position = i + 1;
     delay = delay + step;
 
